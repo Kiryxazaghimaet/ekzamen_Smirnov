@@ -1,0 +1,19 @@
+﻿<Window x:Class="ekzamen.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ekzamen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="238,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="229,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtLog" HorizontalAlignment="Left" Margin="287,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="txtPass" HorizontalAlignment="Left" Margin="287,0,0,0"   VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="btnAuth" Content="Войти" HorizontalAlignment="Left" VerticalAlignment="Top" Height="82" Width="110" Click="btnauth_Click" Margin="424,167,0,0" BorderThickness="2,2,2.3,2" IsDefault="True">
+        </Button>
+        <Label Content="Посмотреть" HorizontalAlignment="Left" Margin="282,235,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
